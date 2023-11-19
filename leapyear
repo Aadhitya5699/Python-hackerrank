@@ -1,0 +1,8 @@
+def is_leap(year):
+    leap = False
+if year % 400 == 0:
+        leap = True
+    //if a year evenly divisible 100 then not a leap year
+    elif year % 4 == 0 and year % 100 != 0: //no elseif in python
+        leap = True
+    return leap
