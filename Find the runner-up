@@ -1,0 +1,7 @@
+ n = int(input())
+    arr = map(int, input().split())
+
+    unique_scores = list(set(arr)) /* Converts the map object arr to a set. A set is an unordered collection of unique elements, so this effectively removes any duplicate scores.
+ Converts the set back to a list, creating a list of unique scores without duplicates. */
+    sorted_scores = sorted(unique_scores, reverse=True) //sorting uniques scores in descending.
+    print(sorted_scores[1]) //Prints the second highest score 
