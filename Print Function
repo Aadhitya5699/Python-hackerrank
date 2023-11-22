@@ -1,0 +1,3 @@
+ n = int(input())
+    for i in range(1,n+1): //n+1 is used to ensure that the loop includes the value of n in its iterations.
+        print(i,end="") //end parameter is used so values will be on the same line.
